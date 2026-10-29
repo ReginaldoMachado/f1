@@ -1,0 +1,26 @@
+site_name: F1 Explorer
+site_description: Dashboard de dados historicos da Formula 1 com a OpenF1
+docs_dir: docs/docs
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+plugins:
+  - search
+nav:
+  - Início: index.md
+  - Arquitetura: architecture.md
+  - Estrutura do projeto: project-structure.md
+  - Como rodar local: running-locally.md
+  - Como rodar testes: running-tests.md
+  - Como contribuir: contributing.md
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
